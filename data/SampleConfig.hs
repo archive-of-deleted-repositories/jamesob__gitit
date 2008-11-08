@@ -9,7 +9,8 @@ maxUploadSize   = 100000,
 portNumber      = 5001,
 passwordSalt    = "***REMOVED***",
 debugMode       = True,
-lockedPages     = ["Help", "Front Page"],
+noEdit          = ["Help", "Front Page"],
+noDelete        = ["Help", "Front Page"],
 accessQuestion  = Just ("Enter the access code (to request an access code, contact me@somewhere.org):", ["abcd"])
 }
 
